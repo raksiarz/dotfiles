@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+git fetch
+
+branch=$( git branch -r --sort=-committerdate | head -n 64 | sed "s+origin/++g")
+
+git switch $branch
