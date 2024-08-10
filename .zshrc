@@ -104,8 +104,6 @@ alias gs="git status"
 alias gc="git commit"
 alias gp="git pull"
 alias gr="git restore ."
-alias wwd="watchman watch dist"
-alias wwa="watchman watch assets"
 bindkey -s ^f "tmux-sessionizer\n"
 bindkey -s ^G "git-branch-finder\n"
 
